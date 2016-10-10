@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/order_begin_set"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:id="@+id/on_fixation_click"
+            style="@style/customButtonsStyle"
+            android:background="@drawable/left_order_button">
+
+            <TextView
+                style="@style/textViewInButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/fixation" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ready_to_go_click"
+            style="@style/customButtonsStyle"
+            android:background="@drawable/right_order_button">
+
+            <TextView
+                style="@style/textViewInButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ready_to_go" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/order_active_set"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:id="@+id/on_calculation_click"
+            style="@style/customButtonsStyle"
+            android:background="@drawable/left_order_button">
+
+            <TextView
+                style="@style/textViewInButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/calculation" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/on_wait_click"
+            style="@style/customButtonsStyle"
+            android:background="@drawable/right_order_button">
+
+            <TextView
+                style="@style/textViewInButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/stop" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/order_end_set"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:id="@+id/on_pay_click"
+            style="@style/customButtonsStyle"
+            android:background="@drawable/left_order_button">
+
+            <TextView
+                style="@style/textViewInButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/pay" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/on_go_on_click"
+            style="@style/customButtonsStyle"
+            android:background="@drawable/right_order_button">
+
+            <TextView
+                style="@style/textViewInButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/go_on" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

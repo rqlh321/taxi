@@ -1,0 +1,15 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="big_margin">42dp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fourth_horizontal_margin">4dp</dimen>
+    <dimen name="half_horizontal_margin">8dp</dimen>
+    <dimen name="fourth_vertical_margin">4dp</dimen>
+    <dimen name="half_vertical_margin">8dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="button_conner_radius">20dp</dimen>
+    <dimen name="button_conner_radius_area">5dp</dimen>
+    <dimen name="button_round_conner_radius">100dp</dimen>
+    <dimen name="text_size">14sp</dimen>
+</resources>

@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "D:\\AndroidStudioProjects\\TDApp\\app\\build\\intermediates\\res\\merged\\debug\\menu\\alert_order_from_area.xml",
+        "source": "D:\\AndroidStudioProjects\\TDApp\\app\\src\\main\\res\\menu\\alert_order_from_area.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\taxi\\app\\build\\intermediates\\res\\merged\\debug\\menu\\drawer_view.xml",
+        "source": "D:\\AndroidStudioProjects\\taxi\\app\\src\\main\\res\\menu\\drawer_view.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\taxi\\app\\build\\intermediates\\res\\merged\\debug\\menu\\alert_order_from_area.xml",
+        "source": "D:\\AndroidStudioProjects\\taxi\\app\\src\\main\\res\\menu\\alert_order_from_area.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\TDApp\\app\\build\\intermediates\\res\\merged\\debug\\menu\\drawer_view.xml",
+        "source": "D:\\AndroidStudioProjects\\TDApp\\app\\src\\main\\res\\menu\\drawer_view.xml"
+    }
+]

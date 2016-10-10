@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:id="@+id/navigation"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/menu_history"
+            android:title="@string/history" />
+        <item
+            android:id="@+id/menu_map"
+            android:title="@string/map" />
+        <item
+            android:id="@+id/menu_all_areas"
+            android:title="@string/all_areas" />
+
+        <item
+            android:id="@+id/menu_exit"
+            android:checkable="false"
+            android:enabled="false"
+            android:orderInCategory="200"
+            android:title="" />
+    </group>
+
+</menu>

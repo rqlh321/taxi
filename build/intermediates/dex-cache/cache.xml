@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\sic\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.1.0\support-annotations-24.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="8a23146e1a8c7cb4758e3d3f62449213f1e51f67">
+        <dex dex="D:\AndroidStudioProjects\taxi\app\build\intermediates\pre-dexed\debug\support-annotations-24.1.0_a84d88661529757408d6606867e4fbe5712a35d4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\sic\.gradle\caches\modules-2\files-2.1\com.jakewharton\butterknife-annotations\8.4.0\ea392375cf9ff59234a82e7928a204215ccc98cd\butterknife-annotations-8.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="ea392375cf9ff59234a82e7928a204215ccc98cd">
+        <dex dex="D:\AndroidStudioProjects\taxi\app\build\intermediates\pre-dexed\debug\butterknife-annotations-8.4.0_106db2fd0e5bcafbdc39bfd6172f24769474ecdd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\sic\.gradle\caches\modules-2\files-2.1\io.reactivex\rxandroid\0.23.0\9c437ce12df38b57fde4e3bb38ef6859f85ff737\rxandroid-0.23.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="9c437ce12df38b57fde4e3bb38ef6859f85ff737">
+        <dex dex="D:\AndroidStudioProjects\taxi\app\build\intermediates\pre-dexed\debug\rxandroid-0.23.0_f5b99e31c5a94b0fc6e8183e1e3c4925b74f58f5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\AndroidStudioProjects\taxi\app\build\intermediates\exploded-aar\com.android.support\design\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="5326d9a850d491714fef8cbfaa9ea3416f0bf0d2">
+        <dex dex="D:\AndroidStudioProjects\taxi\app\build\intermediates\pre-dexed\debug\com.android.support-design-23.4.0_c1b6d30eec689548f268f98eec2f077d76fab636.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\AndroidStudioProjects\taxi\app\lib\jackson-core-2.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="dd4d5637f6baac7a6286594c0236e2e59b824c88">
+        <dex dex="D:\AndroidStudioProjects\taxi\app\build\intermediates\pre-dexed\debug\jackson-core-2.0.0_2562d026233ed615de6100af054b3dc089daa173.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\AndroidStudioProjects\taxi\app\lib\jackson-annotations-2.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="f0b06a31fa1bb8f9081013e242bcf7a31416470c">
+        <dex dex="D:\AndroidStudioProjects\taxi\app\build\intermediates\pre-dexed\debug\jackson-annotations-2.0.0_6eaad06afb2a4ea226a70ab8ec36fb302e5df8da.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\sic\.gradle\caches\modules-2\files-2.1\org.jsoup\jsoup\1.8.3\65fd012581ded67bc20945d85c32b4598c3a9cf1\jsoup-1.8.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="65fd012581ded67bc20945d85c32b4598c3a9cf1">
+        <dex dex="D:\AndroidStudioProjects\taxi\app\build\intermediates\pre-dexed\debug\jsoup-1.8.3_899a6c764841cdf87671ed69991df14bb2a16c9b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\AndroidStudioProjects\taxi\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="D:\AndroidStudioProjects\taxi\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-23.4.0_2e119d38f69a15598d46fc658f4022556169bfdc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\AndroidStudioProjects\taxi\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="D:\AndroidStudioProjects\taxi\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.4.0_264cca80ca4de4130bcffda0d9173a8fe25cfdda.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\AndroidStudioProjects\taxi\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\libs\internal_impl-23.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="D:\AndroidStudioProjects\taxi\app\build\intermediates\pre-dexed\debug\internal_impl-23.4.0_9f5481fc3531c42c996d09682c7d514b83fe2561.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\sic\.gradle\caches\modules-2\files-2.1\io.reactivex\rxjava\1.0.0-rc.9\ae9b02e6a3c11583980d24ba573fed5d558a6d6\rxjava-1.0.0-rc.9.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="0ae9b02e6a3c11583980d24ba573fed5d558a6d6">
+        <dex dex="D:\AndroidStudioProjects\taxi\app\build\intermediates\pre-dexed\debug\rxjava-1.0.0-rc.9_8a3923f2719d1f4dacab00513b892f164d85edd3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\AndroidStudioProjects\taxi\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="D:\AndroidStudioProjects\taxi\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-23.4.0_73d8b983426fbcddf3242f6bd38c8be3e6c5189b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\AndroidStudioProjects\taxi\app\build\intermediates\exploded-aar\com.jakewharton\butterknife\8.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="a07818a1ecabdb149998823429cce555af4b9cba">
+        <dex dex="D:\AndroidStudioProjects\taxi\app\build\intermediates\pre-dexed\debug\com.jakewharton-butterknife-8.4.0_a1d4fa6ac9d4c4baf90e17c63167a1e659fb95dd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\AndroidStudioProjects\taxi\app\lib\jackson-databind-2.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="6452d956c9a3a35ae611ef7ef2963ec42638bded">
+        <dex dex="D:\AndroidStudioProjects\taxi\app\build\intermediates\pre-dexed\debug\jackson-databind-2.0.0_f1762cd1c0e92ff6bb2daa62c9dc44fd0eee364a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\AndroidStudioProjects\taxi\app\build\intermediates\exploded-aar\ru.yandex\yandexmapkit\2.4.2\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="44a49106cbebe32252bc3e9047d07d8a24575065">
+        <dex dex="D:\AndroidStudioProjects\taxi\app\build\intermediates\pre-dexed\debug\ru.yandex-yandexmapkit-2.4.2_e6e57588deca9e326ff1eb8ad4628ac12d5d5646.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\AndroidStudioProjects\taxi\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="ec75036c3c52e451d0cde50a5aedaf5fd32354a0">
+        <dex dex="D:\AndroidStudioProjects\taxi\app\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-23.4.0_375252002990848a6b38853d31f968395ff69244.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\AndroidStudioProjects\taxi\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="D:\AndroidStudioProjects\taxi\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-23.4.0_ab5b5e2ab0ce6077246aba1e4f64c916067c8451.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\AndroidStudioProjects\taxi\app\build\intermediates\exploded-aar\ru.yandex\yandexmapkit\2.4.2\jars\libs\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="93e25f116d11779257e956493764c99efc9f8751">
+        <dex dex="D:\AndroidStudioProjects\taxi\app\build\intermediates\pre-dexed\debug\yandexmapkit-2.4.2-jars_8c8bda373d2ddd81ebed8a465b0f578bbf1ca77e.jar" />
+    </item>
+
+</items>

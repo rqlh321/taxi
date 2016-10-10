@@ -1,0 +1,72 @@
+<resources>
+    <string name="app_name">My Taxi</string>
+
+    <string name="menu">Меню</string>
+    <string name="prompt_user_name">Позывной</string>
+    <string name="prompt_password">Пароль</string>
+    <string name="action_sign_in">Поехали!</string>
+    <string name="error_incorrect_password">Неверный позывной и/или пароль</string>
+    <string name="error_field_user_required">Заполните позывной</string>
+    <string name="error_field_password_required">Заполните пароль</string>
+    <string name="error_no_connection_to_server">Не удалось подключиться к серверу</string>
+
+    <string name="title_activity_profile">Профиль</string>
+    <string name="online_action">Выход на линию</string>
+    <string name="offline_action">Уход с линии</string>
+    <string name="balance_action">Баланс</string>
+    <string name="ok">Ок</string>
+
+    <string name="pause_action">Пауза</string>
+    <string name="pause_lunch_action">Обед</string>
+
+    <string name="status_offline">Не на линии</string>
+    <string name="status_online">На линии</string>
+    <string name="status_on_task">На задании</string>
+
+    <string name="profile_status">Статус: %1$s</string>
+    <string name="profile_area">Ваш район: %1$s</string>
+    <string name="profile_queue">Очередь: %1$s</string>
+
+    <string name="orders">Заказы</string>
+    <string name="order">Заказ</string>
+    <string name="history">История</string>
+    <string name="map">Карта</string>
+    <string name="all_areas">Все районы</string>
+    <string name="exit">Выход</string>
+
+    <string name="fixation">Фиксация</string>
+    <string name="pause">Пауза</string>
+    <string name="ready_to_go">Подъехал</string>
+    <string name="calculation">Расчет</string>
+    <string name="stop">Переезд</string>
+    <string name="pay">Оплата</string>
+    <string name="go_on">Продолжить</string>
+    <string name="pay_info_text">К ОПЛАТЕ:</string>
+
+    <string name="order_counter">Оплата: счетчик</string>
+    <string name="order_status">Статус: %1$s</string>
+    <string name="pay_info">%1$d Р</string>
+    <string name="order_time">Время: %1$d мин</string>
+    <string name="order_distance">Дистанция: %1$s км</string>
+    <string name="order_speed">Скорость: %1$s км/ч</string>
+
+    <string name="area_alert_title">Заказы в районе: %1$s</string>
+    <string name="apply">Запрос</string>
+    <string name="cancel">Отмена</string>
+    <string-array name="history_params">
+        <item>принят: %1$s</item>
+        <item>завершен: %1$s</item>
+        <item>сумма: %1$s</item>
+    </string-array>
+    <string-array name="order_status_values">
+        <item>заказ активен</item>
+        <item>заказ завершен</item>
+    </string-array>
+
+    <string name="good_connection">Результат успешно сохранен</string>
+    <string name="bad_connection">Ваш результат будет сохранен при подключении к сети</string>
+    <string name="loading">Загрузка районов</string>
+    <string name="wait_loading">Пожалуйста подождите...</string>
+
+
+</resources>
