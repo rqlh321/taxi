@@ -1,4 +1,4 @@
-#Mon Oct 10 23:50:25 MSK 2016
+#Tue Oct 11 15:11:48 MSK 2016
 base.0=D\:\\AndroidStudioProjects\\taxi\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
 renamed.0=classes.dex
 file.0=D\:\\AndroidStudioProjects\\taxi\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex

@@ -11,6 +11,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.KeyEvent;
 import android.view.MenuItem;
 
+import com.example.taxidriverapp.GpsService;
 import com.example.taxidriverapp.R;
 import com.example.taxidriverapp.TaxiServer;
 import com.example.taxidriverapp.fragments.AllAreasFragment;
@@ -33,6 +34,7 @@ public class MainActivity extends AppCompatActivity {
     @OnClick(R.id.menu_exit)
     void exit() {
         TaxiServer.getInstance().logout();
+        stopService(new Intent(this, GpsService.class));
         finish();
         startActivity(new Intent(MainActivity.this, LoginActivity.class));
     }
@@ -42,6 +44,11 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         ButterKnife.bind(this);
+        if(savedInstanceState==null){
+            getSupportFragmentManager().beginTransaction()
+                    .add(R.id.container, new AllAreasFragment())
+                    .commit();
+        }
     }
 
     @Override
@@ -77,10 +84,6 @@ public class MainActivity extends AppCompatActivity {
                 return false;
             }
         });
-        getSupportFragmentManager().beginTransaction()
-                .add(R.id.container, new AllAreasFragment())
-                .commit();
-
     }
 
     @Override

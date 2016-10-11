@@ -39,7 +39,7 @@
     <color name="bright_foreground_material_light">@android:color/black</color>
     <color name="button_material_dark">#ff5a595b</color>
     <color name="button_material_light">#ffd6d7d7</color>
-    <color name="colorAccent">#75e1ff</color>
+    <color name="colorAccent">#ffffff</color>
     <color name="colorGreenButton">#02a100</color>
     <color name="colorGreenButtonPressed">#05f101</color>
     <color name="colorPrimary">#15213d</color>
@@ -329,6 +329,7 @@
     <string name="loading">Загрузка районов</string>
     <string name="map">Карта</string>
     <string name="menu">Меню</string>
+    <string name="new_area">Ваш район: </string>
     <string name="offline_action">Уход с линии</string>
     <string name="ok">Ок</string>
     <string name="online_action">Выход на линию</string>
@@ -372,7 +373,7 @@
         <item name="android:windowExitAnimation">@anim/design_bottom_sheet_slide_out</item>
     </style>
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
-        <!-- Customize your theme here. -->
+        
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
@@ -1350,9 +1351,9 @@
         <item name="tabSelectedTextColor">?android:textColorPrimary</item>
     </style>
     <style name="MyEditTextTheme" parent="Theme.AppCompat.Light.DarkActionBar">
-        <!-- Used for the bottom line when not selected / focused -->
+        
         <item name="colorControlNormal">@color/colorText</item>
-        <!-- colorControlActivated & colorControlHighlight use the colorAccent color by default -->
+        
         <item name="android:textColorHint">@color/colorText</item>
         <item name="android:textColor">@color/colorText</item>
         <item name="android:singleLine">true</item>

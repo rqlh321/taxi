@@ -6,13 +6,5 @@
     {
         "merged": "D:\\AndroidStudioProjects\\taxi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\vector_drawable_ic_cached_black___px.png",
         "source": "D:\\AndroidStudioProjects\\taxi\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\vector_drawable_ic_cached_black___px.png"
-    },
-    {
-        "merged": "D:\\AndroidStudioProjects\\TDApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\vector_drawable_ic_cached_black___px.png",
-        "source": "D:\\AndroidStudioProjects\\TDApp\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\vector_drawable_ic_cached_black___px.png"
-    },
-    {
-        "merged": "D:\\AndroidStudioProjects\\TDApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\vector_drawable_ic_check_circle_black___px.png",
-        "source": "D:\\AndroidStudioProjects\\TDApp\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\vector_drawable_ic_check_circle_black___px.png"
     }
 ]

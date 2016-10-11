@@ -1,9 +1,5 @@
 [
     {
-        "merged": "D:\\AndroidStudioProjects\\TDApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-en\\ymk_ya_logo.png",
-        "source": "D:\\AndroidStudioProjects\\TDApp\\app\\build\\intermediates\\exploded-aar\\ru.yandex\\yandexmapkit\\2.4.2\\res\\drawable-en\\ymk_ya_logo.png"
-    },
-    {
         "merged": "D:\\AndroidStudioProjects\\taxi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-en\\ymk_ya_logo.png",
         "source": "D:\\AndroidStudioProjects\\taxi\\app\\build\\intermediates\\exploded-aar\\ru.yandex\\yandexmapkit\\2.4.2\\res\\drawable-en\\ymk_ya_logo.png"
     }

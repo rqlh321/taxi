@@ -2,9 +2,5 @@
     {
         "merged": "D:\\AndroidStudioProjects\\taxi\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\ic_launcher.png",
         "source": "D:\\AndroidStudioProjects\\taxi\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
-    },
-    {
-        "merged": "D:\\AndroidStudioProjects\\TDApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\ic_launcher.png",
-        "source": "D:\\AndroidStudioProjects\\TDApp\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
     }
 ]

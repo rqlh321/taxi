@@ -4,15 +4,7 @@
         "source": "D:\\AndroidStudioProjects\\taxi\\app\\build\\intermediates\\exploded-aar\\ru.yandex\\yandexmapkit\\2.4.2\\res\\xml\\ymk_map_layers.xml"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\TDApp\\app\\build\\intermediates\\res\\merged\\debug\\xml\\global_tracker.xml",
-        "source": "D:\\AndroidStudioProjects\\TDApp\\app\\build\\intermediates\\exploded-aar\\ru.yandex\\yandexmapkit\\2.4.2\\res\\xml\\global_tracker.xml"
-    },
-    {
         "merged": "D:\\AndroidStudioProjects\\taxi\\app\\build\\intermediates\\res\\merged\\debug\\xml\\global_tracker.xml",
         "source": "D:\\AndroidStudioProjects\\taxi\\app\\build\\intermediates\\exploded-aar\\ru.yandex\\yandexmapkit\\2.4.2\\res\\xml\\global_tracker.xml"
-    },
-    {
-        "merged": "D:\\AndroidStudioProjects\\TDApp\\app\\build\\intermediates\\res\\merged\\debug\\xml\\ymk_map_layers.xml",
-        "source": "D:\\AndroidStudioProjects\\TDApp\\app\\build\\intermediates\\exploded-aar\\ru.yandex\\yandexmapkit\\2.4.2\\res\\xml\\ymk_map_layers.xml"
     }
 ]

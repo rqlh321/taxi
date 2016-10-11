@@ -1,13 +1,5 @@
 [
     {
-        "merged": "D:\\AndroidStudioProjects\\TDApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ymk_zoom_minus.png",
-        "source": "D:\\AndroidStudioProjects\\TDApp\\app\\build\\intermediates\\exploded-aar\\ru.yandex\\yandexmapkit\\2.4.2\\res\\drawable-mdpi\\ymk_zoom_minus.png"
-    },
-    {
-        "merged": "D:\\AndroidStudioProjects\\TDApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ymk_zoom_minus_pressed.png",
-        "source": "D:\\AndroidStudioProjects\\TDApp\\app\\build\\intermediates\\exploded-aar\\ru.yandex\\yandexmapkit\\2.4.2\\res\\drawable-mdpi\\ymk_zoom_minus_pressed.png"
-    },
-    {
         "merged": "D:\\AndroidStudioProjects\\taxi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\vector_drawable_ic_check_circle_black___px.png",
         "source": "D:\\AndroidStudioProjects\\taxi\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\vector_drawable_ic_check_circle_black___px.png"
     },
@@ -16,72 +8,12 @@
         "source": "D:\\AndroidStudioProjects\\taxi\\app\\build\\intermediates\\exploded-aar\\ru.yandex\\yandexmapkit\\2.4.2\\res\\drawable-mdpi\\ymk_balloon_tail_black.png"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\TDApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\vector_drawable_ic_check_circle_black___px.png",
-        "source": "D:\\AndroidStudioProjects\\TDApp\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\vector_drawable_ic_check_circle_black___px.png"
-    },
-    {
         "merged": "D:\\AndroidStudioProjects\\taxi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ymk_zoom_minus.png",
         "source": "D:\\AndroidStudioProjects\\taxi\\app\\build\\intermediates\\exploded-aar\\ru.yandex\\yandexmapkit\\2.4.2\\res\\drawable-mdpi\\ymk_zoom_minus.png"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\taxi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ymk_stricolorvga.png",
-        "source": "D:\\AndroidStudioProjects\\taxi\\app\\build\\intermediates\\exploded-aar\\ru.yandex\\yandexmapkit\\2.4.2\\res\\drawable-mdpi\\ymk_stricolorvga.png"
-    },
-    {
-        "merged": "D:\\AndroidStudioProjects\\taxi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ymk_where_am_i_pressed.png",
-        "source": "D:\\AndroidStudioProjects\\taxi\\app\\build\\intermediates\\exploded-aar\\ru.yandex\\yandexmapkit\\2.4.2\\res\\drawable-mdpi\\ymk_where_am_i_pressed.png"
-    },
-    {
-        "merged": "D:\\AndroidStudioProjects\\TDApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ymk_where_am_i_pressed.png",
-        "source": "D:\\AndroidStudioProjects\\TDApp\\app\\build\\intermediates\\exploded-aar\\ru.yandex\\yandexmapkit\\2.4.2\\res\\drawable-mdpi\\ymk_where_am_i_pressed.png"
-    },
-    {
-        "merged": "D:\\AndroidStudioProjects\\taxi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ymk_sgrayvga.png",
-        "source": "D:\\AndroidStudioProjects\\taxi\\app\\build\\intermediates\\exploded-aar\\ru.yandex\\yandexmapkit\\2.4.2\\res\\drawable-mdpi\\ymk_sgrayvga.png"
-    },
-    {
-        "merged": "D:\\AndroidStudioProjects\\TDApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ymk_stricolorvga.png",
-        "source": "D:\\AndroidStudioProjects\\TDApp\\app\\build\\intermediates\\exploded-aar\\ru.yandex\\yandexmapkit\\2.4.2\\res\\drawable-mdpi\\ymk_stricolorvga.png"
-    },
-    {
-        "merged": "D:\\AndroidStudioProjects\\TDApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ymk_user_location_lbs.png",
-        "source": "D:\\AndroidStudioProjects\\TDApp\\app\\build\\intermediates\\exploded-aar\\ru.yandex\\yandexmapkit\\2.4.2\\res\\drawable-mdpi\\ymk_user_location_lbs.png"
-    },
-    {
-        "merged": "D:\\AndroidStudioProjects\\taxi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ymk_sredvga.png",
-        "source": "D:\\AndroidStudioProjects\\taxi\\app\\build\\intermediates\\exploded-aar\\ru.yandex\\yandexmapkit\\2.4.2\\res\\drawable-mdpi\\ymk_sredvga.png"
-    },
-    {
-        "merged": "D:\\AndroidStudioProjects\\taxi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\vector_drawable_ic_cached_black___px.png",
-        "source": "D:\\AndroidStudioProjects\\taxi\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\vector_drawable_ic_cached_black___px.png"
-    },
-    {
-        "merged": "D:\\AndroidStudioProjects\\TDApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ymk_balloon_black.9.png",
-        "source": "D:\\AndroidStudioProjects\\TDApp\\app\\build\\intermediates\\exploded-aar\\ru.yandex\\yandexmapkit\\2.4.2\\res\\drawable-mdpi\\ymk_balloon_black.9.png"
-    },
-    {
-        "merged": "D:\\AndroidStudioProjects\\TDApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ymk_zoom_plus_pressed.png",
-        "source": "D:\\AndroidStudioProjects\\TDApp\\app\\build\\intermediates\\exploded-aar\\ru.yandex\\yandexmapkit\\2.4.2\\res\\drawable-mdpi\\ymk_zoom_plus_pressed.png"
-    },
-    {
-        "merged": "D:\\AndroidStudioProjects\\TDApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\vector_drawable_ic_cached_black___px.png",
-        "source": "D:\\AndroidStudioProjects\\TDApp\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\vector_drawable_ic_cached_black___px.png"
-    },
-    {
-        "merged": "D:\\AndroidStudioProjects\\TDApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ymk_sgreenvga.png",
-        "source": "D:\\AndroidStudioProjects\\TDApp\\app\\build\\intermediates\\exploded-aar\\ru.yandex\\yandexmapkit\\2.4.2\\res\\drawable-mdpi\\ymk_sgreenvga.png"
-    },
-    {
-        "merged": "D:\\AndroidStudioProjects\\TDApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ymk_sgrayvga.png",
-        "source": "D:\\AndroidStudioProjects\\TDApp\\app\\build\\intermediates\\exploded-aar\\ru.yandex\\yandexmapkit\\2.4.2\\res\\drawable-mdpi\\ymk_sgrayvga.png"
-    },
-    {
         "merged": "D:\\AndroidStudioProjects\\taxi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ymk_user_location_lbs.png",
         "source": "D:\\AndroidStudioProjects\\taxi\\app\\build\\intermediates\\exploded-aar\\ru.yandex\\yandexmapkit\\2.4.2\\res\\drawable-mdpi\\ymk_user_location_lbs.png"
-    },
-    {
-        "merged": "D:\\AndroidStudioProjects\\TDApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ymk_where_am_i.png",
-        "source": "D:\\AndroidStudioProjects\\TDApp\\app\\build\\intermediates\\exploded-aar\\ru.yandex\\yandexmapkit\\2.4.2\\res\\drawable-mdpi\\ymk_where_am_i.png"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\taxi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ymk_sgreenvga.png",
@@ -92,36 +24,40 @@
         "source": "D:\\AndroidStudioProjects\\taxi\\app\\build\\intermediates\\exploded-aar\\ru.yandex\\yandexmapkit\\2.4.2\\res\\drawable-mdpi\\ymk_syellowvga.png"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\taxi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ymk_zoom_plus_pressed.png",
-        "source": "D:\\AndroidStudioProjects\\taxi\\app\\build\\intermediates\\exploded-aar\\ru.yandex\\yandexmapkit\\2.4.2\\res\\drawable-mdpi\\ymk_zoom_plus_pressed.png"
+        "merged": "D:\\AndroidStudioProjects\\taxi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ymk_stricolorvga.png",
+        "source": "D:\\AndroidStudioProjects\\taxi\\app\\build\\intermediates\\exploded-aar\\ru.yandex\\yandexmapkit\\2.4.2\\res\\drawable-mdpi\\ymk_stricolorvga.png"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\TDApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ymk_syellowvga.png",
-        "source": "D:\\AndroidStudioProjects\\TDApp\\app\\build\\intermediates\\exploded-aar\\ru.yandex\\yandexmapkit\\2.4.2\\res\\drawable-mdpi\\ymk_syellowvga.png"
+        "merged": "D:\\AndroidStudioProjects\\taxi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ymk_zoom_plus_pressed.png",
+        "source": "D:\\AndroidStudioProjects\\taxi\\app\\build\\intermediates\\exploded-aar\\ru.yandex\\yandexmapkit\\2.4.2\\res\\drawable-mdpi\\ymk_zoom_plus_pressed.png"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\taxi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ymk_zoom_plus.png",
         "source": "D:\\AndroidStudioProjects\\taxi\\app\\build\\intermediates\\exploded-aar\\ru.yandex\\yandexmapkit\\2.4.2\\res\\drawable-mdpi\\ymk_zoom_plus.png"
     },
     {
+        "merged": "D:\\AndroidStudioProjects\\taxi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ymk_where_am_i_pressed.png",
+        "source": "D:\\AndroidStudioProjects\\taxi\\app\\build\\intermediates\\exploded-aar\\ru.yandex\\yandexmapkit\\2.4.2\\res\\drawable-mdpi\\ymk_where_am_i_pressed.png"
+    },
+    {
         "merged": "D:\\AndroidStudioProjects\\taxi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ymk_where_am_i.png",
         "source": "D:\\AndroidStudioProjects\\taxi\\app\\build\\intermediates\\exploded-aar\\ru.yandex\\yandexmapkit\\2.4.2\\res\\drawable-mdpi\\ymk_where_am_i.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\taxi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ymk_sgrayvga.png",
+        "source": "D:\\AndroidStudioProjects\\taxi\\app\\build\\intermediates\\exploded-aar\\ru.yandex\\yandexmapkit\\2.4.2\\res\\drawable-mdpi\\ymk_sgrayvga.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\taxi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ymk_sredvga.png",
+        "source": "D:\\AndroidStudioProjects\\taxi\\app\\build\\intermediates\\exploded-aar\\ru.yandex\\yandexmapkit\\2.4.2\\res\\drawable-mdpi\\ymk_sredvga.png"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\taxi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ymk_balloon_black.9.png",
         "source": "D:\\AndroidStudioProjects\\taxi\\app\\build\\intermediates\\exploded-aar\\ru.yandex\\yandexmapkit\\2.4.2\\res\\drawable-mdpi\\ymk_balloon_black.9.png"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\TDApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ymk_sredvga.png",
-        "source": "D:\\AndroidStudioProjects\\TDApp\\app\\build\\intermediates\\exploded-aar\\ru.yandex\\yandexmapkit\\2.4.2\\res\\drawable-mdpi\\ymk_sredvga.png"
-    },
-    {
-        "merged": "D:\\AndroidStudioProjects\\TDApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ymk_user_location_gps.png",
-        "source": "D:\\AndroidStudioProjects\\TDApp\\app\\build\\intermediates\\exploded-aar\\ru.yandex\\yandexmapkit\\2.4.2\\res\\drawable-mdpi\\ymk_user_location_gps.png"
-    },
-    {
-        "merged": "D:\\AndroidStudioProjects\\TDApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ymk_zoom_plus.png",
-        "source": "D:\\AndroidStudioProjects\\TDApp\\app\\build\\intermediates\\exploded-aar\\ru.yandex\\yandexmapkit\\2.4.2\\res\\drawable-mdpi\\ymk_zoom_plus.png"
+        "merged": "D:\\AndroidStudioProjects\\taxi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\vector_drawable_ic_cached_black___px.png",
+        "source": "D:\\AndroidStudioProjects\\taxi\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\vector_drawable_ic_cached_black___px.png"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\taxi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ymk_zoom_minus_pressed.png",
@@ -130,9 +66,5 @@
     {
         "merged": "D:\\AndroidStudioProjects\\taxi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ymk_user_location_gps.png",
         "source": "D:\\AndroidStudioProjects\\taxi\\app\\build\\intermediates\\exploded-aar\\ru.yandex\\yandexmapkit\\2.4.2\\res\\drawable-mdpi\\ymk_user_location_gps.png"
-    },
-    {
-        "merged": "D:\\AndroidStudioProjects\\TDApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ymk_balloon_tail_black.png",
-        "source": "D:\\AndroidStudioProjects\\TDApp\\app\\build\\intermediates\\exploded-aar\\ru.yandex\\yandexmapkit\\2.4.2\\res\\drawable-mdpi\\ymk_balloon_tail_black.png"
     }
 ]

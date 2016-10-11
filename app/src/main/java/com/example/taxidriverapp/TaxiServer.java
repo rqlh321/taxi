@@ -1,6 +1,5 @@
 package com.example.taxidriverapp;
 
-import com.example.taxidriverapp.activity.LoginActivity;
 import com.example.taxidriverapp.models.Area;
 
 import java.io.BufferedReader;
@@ -10,14 +9,15 @@ import java.io.PrintStream;
 import java.net.Socket;
 import java.util.ArrayList;
 
-import static com.example.taxidriverapp.activity.LoginActivity.myId;
-import static com.example.taxidriverapp.activity.LoginActivity.myLogin;
+import static com.example.taxidriverapp.TaxiServer.Data.myId;
+import static com.example.taxidriverapp.TaxiServer.Data.myLogin;
 
 public class TaxiServer {
     private static final String SERVER_IP = "192.168.1.101";
     private static final int REQUEST_LOGIN = 0;
     private static final int REQUEST_LOGOUT = 1;
     private static final int REQUEST_GET_AREAS = 5;
+    private static final int REQUEST_SET_MY_AREA = 4;
     private static final int REQUEST_COUNT_DRIVERS = 6;
     private static TaxiServer taxiServer = new TaxiServer();
     private PrintStream output;
@@ -35,7 +35,7 @@ public class TaxiServer {
         try {
             Socket socket = new Socket(SERVER_IP, 9999);
             output = new PrintStream(socket.getOutputStream());
-            input = new BufferedReader(new InputStreamReader(socket.getInputStream(), "windows-1251"));
+            input = new BufferedReader(new InputStreamReader(socket.getInputStream()));
             output.println(REQUEST_LOGIN + ":" + userName + ":" + password);
             String[] massage = input.readLine().split(":");
             switch (massage[0]) {
@@ -53,7 +53,7 @@ public class TaxiServer {
     }
 
     public int logout() {
-        output.println(REQUEST_LOGOUT + ":" + LoginActivity.myId);
+        output.println(REQUEST_LOGOUT + ":" + myId);
         return -1;
     }
 
@@ -77,7 +77,14 @@ public class TaxiServer {
         return null;
     }
 
+    public void setMyArea(int idArea) {
+        output.println(REQUEST_SET_MY_AREA + ":" + idArea);
+    }
+
     public static class Data {
+        public static int myId;
+        public static String myLogin;
+        public static int myArea = -1;
         public static ArrayList<Area> areas = new ArrayList<>();
     }
 }

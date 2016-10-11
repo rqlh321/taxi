@@ -31,9 +31,7 @@ import rx.schedulers.Schedulers;
 
 public class LoginActivity extends AppCompatActivity {
     private static final int REQUEST_LOCATION = 0;
-    public static int myId;
-    public static String myLogin;
-    private static String[] PERMISSIONS = {
+    private final String[] PERMISSIONS = {
             Manifest.permission.ACCESS_FINE_LOCATION,
             Manifest.permission.ACCESS_COARSE_LOCATION
     };

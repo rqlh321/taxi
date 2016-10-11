@@ -67,6 +67,7 @@
     <string name="bad_connection">Ваш результат будет сохранен при подключении к сети</string>
     <string name="loading">Загрузка районов</string>
     <string name="wait_loading">Пожалуйста подождите...</string>
+    <string name="new_area">Ваш район: </string>
 
 
 </resources>
