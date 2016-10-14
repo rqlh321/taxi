@@ -18,12 +18,14 @@ public class DatabaseHelper extends SQLiteOpenHelper implements BaseColumns {
     public static final String CONTENT_IS_IN_LIST = "isInGlobalDb";
     public static final String CONTENT_IS_ADDRESS_FOUND = "isAddressFound";
     public static final String CONTENT_ADDRESS = "address";
+    public static final String CONTENT_ID_IN_GLOBAL_DB = "idInGlobalDb";
     private static final String DATABASE_NAME = "localTaxi.db";
 
     private static final String DATABASE_CREATE_SCRIPT = "create table "
             + DATABASE_TABLE + "(" + BaseColumns._ID + " integer primary key autoincrement, "
             + CONTENT_IS_IN_LIST + " integer default 0, "
             + CONTENT_IS_ADDRESS_FOUND + " integer default 0, "
+            + CONTENT_ID_IN_GLOBAL_DB + " integer default -1, "
             + CONTENT_ADDRESS + " text not null,"
             + CONTENT_START_TIME + " text not null,"
             + CONTENT_PAYMENT + " text not null,"

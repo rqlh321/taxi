@@ -12,14 +12,6 @@
         "source": "D:\\AndroidStudioProjects\\taxi\\app\\src\\main\\res\\layout\\nav_header.xml"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\taxi\\app\\build\\intermediates\\res\\merged\\debug\\layout\\button_set_order.xml",
-        "source": "D:\\AndroidStudioProjects\\taxi\\app\\src\\main\\res\\layout\\button_set_order.xml"
-    },
-    {
-        "merged": "D:\\AndroidStudioProjects\\taxi\\app\\build\\intermediates\\res\\merged\\debug\\layout\\map.xml",
-        "source": "D:\\AndroidStudioProjects\\taxi\\app\\src\\main\\res\\layout\\map.xml"
-    },
-    {
         "merged": "D:\\AndroidStudioProjects\\taxi\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
         "source": "D:\\AndroidStudioProjects\\taxi\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_activity_chooser_view_list_item.xml"
     },
@@ -100,6 +92,10 @@
         "source": "D:\\AndroidStudioProjects\\taxi\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
     },
     {
+        "merged": "D:\\AndroidStudioProjects\\taxi\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_map.xml",
+        "source": "D:\\AndroidStudioProjects\\taxi\\app\\src\\main\\res\\layout\\fragment_map.xml"
+    },
+    {
         "merged": "D:\\AndroidStudioProjects\\taxi\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
         "source": "D:\\AndroidStudioProjects\\taxi\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\notification_template_part_time.xml"
     },
@@ -108,12 +104,12 @@
         "source": "D:\\AndroidStudioProjects\\taxi\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_alert_dialog_material.xml"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\taxi\\app\\build\\intermediates\\res\\merged\\debug\\layout\\address_list_item.xml",
-        "source": "D:\\AndroidStudioProjects\\taxi\\app\\src\\main\\res\\layout\\address_list_item.xml"
-    },
-    {
         "merged": "D:\\AndroidStudioProjects\\taxi\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
         "source": "D:\\AndroidStudioProjects\\taxi\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\taxi\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_history.xml",
+        "source": "D:\\AndroidStudioProjects\\taxi\\app\\src\\main\\res\\layout\\fragment_history.xml"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\taxi\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
@@ -140,10 +136,6 @@
         "source": "D:\\AndroidStudioProjects\\taxi\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_action_bar_title_item.xml"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\taxi\\app\\build\\intermediates\\res\\merged\\debug\\layout\\order.xml",
-        "source": "D:\\AndroidStudioProjects\\taxi\\app\\src\\main\\res\\layout\\order.xml"
-    },
-    {
         "merged": "D:\\AndroidStudioProjects\\taxi\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
         "source": "D:\\AndroidStudioProjects\\taxi\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_popup_menu_item_layout.xml"
     },
@@ -156,12 +148,20 @@
         "source": "D:\\AndroidStudioProjects\\taxi\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\notification_template_lines.xml"
     },
     {
+        "merged": "D:\\AndroidStudioProjects\\taxi\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_item_history.xml",
+        "source": "D:\\AndroidStudioProjects\\taxi\\app\\src\\main\\res\\layout\\list_item_history.xml"
+    },
+    {
         "merged": "D:\\AndroidStudioProjects\\taxi\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_icon.xml",
         "source": "D:\\AndroidStudioProjects\\taxi\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.4.0\\res\\layout\\design_layout_tab_icon.xml"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\taxi\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
         "source": "D:\\AndroidStudioProjects\\taxi\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_search_view.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\taxi\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_item_address.xml",
+        "source": "D:\\AndroidStudioProjects\\taxi\\app\\src\\main\\res\\layout\\list_item_address.xml"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\taxi\\app\\build\\intermediates\\res\\merged\\debug\\layout\\include_navigation_view.xml",
@@ -180,10 +180,6 @@
         "source": "D:\\AndroidStudioProjects\\taxi\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\select_dialog_multichoice_material.xml"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\taxi\\app\\build\\intermediates\\res\\merged\\debug\\layout\\alert_area.xml",
-        "source": "D:\\AndroidStudioProjects\\taxi\\app\\src\\main\\res\\layout\\alert_area.xml"
-    },
-    {
         "merged": "D:\\AndroidStudioProjects\\taxi\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar.xml",
         "source": "D:\\AndroidStudioProjects\\taxi\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.4.0\\res\\layout\\design_layout_snackbar.xml"
     },
@@ -196,20 +192,16 @@
         "source": "D:\\AndroidStudioProjects\\taxi\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_action_mode_bar.xml"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\taxi\\app\\build\\intermediates\\res\\merged\\debug\\layout\\history.xml",
-        "source": "D:\\AndroidStudioProjects\\taxi\\app\\src\\main\\res\\layout\\history.xml"
-    },
-    {
         "merged": "D:\\AndroidStudioProjects\\taxi\\app\\build\\intermediates\\res\\merged\\debug\\layout\\alert_balance.xml",
         "source": "D:\\AndroidStudioProjects\\taxi\\app\\src\\main\\res\\layout\\alert_balance.xml"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\taxi\\app\\build\\intermediates\\res\\merged\\debug\\layout\\all_areas.xml",
-        "source": "D:\\AndroidStudioProjects\\taxi\\app\\src\\main\\res\\layout\\all_areas.xml"
-    },
-    {
         "merged": "D:\\AndroidStudioProjects\\taxi\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
         "source": "D:\\AndroidStudioProjects\\taxi\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\taxi\\app\\build\\intermediates\\res\\merged\\debug\\layout\\alert_order.xml",
+        "source": "D:\\AndroidStudioProjects\\taxi\\app\\src\\main\\res\\layout\\alert_order.xml"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\taxi\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_cancel_action.xml",
@@ -228,10 +220,6 @@
         "source": "D:\\AndroidStudioProjects\\taxi\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\select_dialog_singlechoice_material.xml"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\taxi\\app\\build\\intermediates\\res\\merged\\debug\\layout\\history_list_item.xml",
-        "source": "D:\\AndroidStudioProjects\\taxi\\app\\src\\main\\res\\layout\\history_list_item.xml"
-    },
-    {
         "merged": "D:\\AndroidStudioProjects\\taxi\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu_item.xml",
         "source": "D:\\AndroidStudioProjects\\taxi\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.4.0\\res\\layout\\design_navigation_menu_item.xml"
     },
@@ -248,10 +236,6 @@
         "source": "D:\\AndroidStudioProjects\\taxi\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_list_menu_item_layout.xml"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\taxi\\app\\build\\intermediates\\res\\merged\\debug\\layout\\stubs.xml",
-        "source": "D:\\AndroidStudioProjects\\taxi\\app\\src\\main\\res\\layout\\stubs.xml"
-    },
-    {
         "merged": "D:\\AndroidStudioProjects\\taxi\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media_narrow.xml",
         "source": "D:\\AndroidStudioProjects\\taxi\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\notification_template_big_media_narrow.xml"
     },
@@ -262,6 +246,10 @@
     {
         "merged": "D:\\AndroidStudioProjects\\taxi\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
         "source": "D:\\AndroidStudioProjects\\taxi\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_screen_content_include.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\taxi\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_all_orders.xml",
+        "source": "D:\\AndroidStudioProjects\\taxi\\app\\src\\main\\res\\layout\\fragment_all_orders.xml"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\taxi\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_action.xml",

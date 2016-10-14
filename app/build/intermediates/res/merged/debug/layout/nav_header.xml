@@ -4,23 +4,16 @@
     android:id="@+id/navHeader"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:padding="16dp"
-    android:theme="@style/ThemeOverlay.AppCompat.Dark"
+    android:gravity="bottom"
     android:orientation="vertical"
-    android:gravity="bottom">
+    android:padding="16dp"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
     <ImageView
         android:id="@+id/myAvatar"
         android:layout_width="150dp"
         android:layout_height="150dp"
-        android:src="@drawable/taxi_driver_2"
-        />
-   <!-- <TextView
-        android:id="@+id/navHeaderTextView"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-        android:layout_below="@+id/myAvatar"
-        android:layout_marginTop="10dp"
-        android:textSize="22sp"/>-->
+        android:layout_marginTop="@dimen/activity_horizontal_margin"
+        android:src="@drawable/taxi_driver_2" />
 
 </RelativeLayout>

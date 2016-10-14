@@ -3,8 +3,8 @@ package com.example.taxidriverapp.fragments;
 
 import android.support.annotation.CallSuper;
 import android.support.annotation.UiThread;
+import android.support.v7.widget.RecyclerView;
 import android.view.View;
-import android.widget.GridView;
 import butterknife.Unbinder;
 import butterknife.internal.Utils;
 import com.example.taxidriverapp.R;
@@ -18,7 +18,7 @@ public class AllAreasFragment_ViewBinding<T extends AllAreasFragment> implements
   public AllAreasFragment_ViewBinding(T target, View source) {
     this.target = target;
 
-    target.areasButtonsView = Utils.findRequiredViewAsType(source, R.id.areas_buttons, "field 'areasButtonsView'", GridView.class);
+    target.addresses = Utils.findRequiredViewAsType(source, R.id.addresses_list, "field 'addresses'", RecyclerView.class);
   }
 
   @Override
@@ -27,7 +27,7 @@ public class AllAreasFragment_ViewBinding<T extends AllAreasFragment> implements
     T target = this.target;
     if (target == null) throw new IllegalStateException("Bindings already cleared.");
 
-    target.areasButtonsView = null;
+    target.addresses = null;
 
     this.target = null;
   }

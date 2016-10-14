@@ -6,7 +6,7 @@ import android.support.v7.widget.RecyclerView;
 
 import com.example.taxidriverapp.DatabaseHelper;
 import com.example.taxidriverapp.R;
-import com.example.taxidriverapp.adapters.RecycleViewHistoryAdapter;
+import com.example.taxidriverapp.adapters.HistoryAdapter;
 
 import butterknife.BindView;
 
@@ -16,7 +16,7 @@ public class HistoryFragment extends GeneralFragment {
 
     @Override
     protected int layout() {
-        return R.layout.history;
+        return R.layout.fragment_history;
     }
 
     @Override
@@ -25,7 +25,7 @@ public class HistoryFragment extends GeneralFragment {
         recyclerView.setLayoutManager(new LinearLayoutManager(getContext()));
         DatabaseHelper dbHelper = new DatabaseHelper(getContext());
         SQLiteDatabase sdb = dbHelper.getReadableDatabase();
-        RecycleViewHistoryAdapter adapter = new RecycleViewHistoryAdapter(getContext(), sdb);
+        HistoryAdapter adapter = new HistoryAdapter(getContext(), sdb);
         recyclerView.setAdapter(adapter);
     }
 }

@@ -13,9 +13,6 @@ import android.os.Bundle;
 import android.os.IBinder;
 import android.support.annotation.Nullable;
 import android.support.v4.app.ActivityCompat;
-import android.widget.Toast;
-
-import com.example.taxidriverapp.models.Area;
 
 public class GpsService extends Service {
     public final static String MY_ACTION = "MY_ACTION";
@@ -46,18 +43,6 @@ public class GpsService extends Service {
                     intent.putExtra("lon", lon);
                     intent.putExtra("speed", speed);
                     sendBroadcast(intent);
-
-                    for (Area area : TaxiServer.Data.areas) {
-                        if (area.getLat() > lat && (area.getLat() - 0.060145) < lat &&
-                                area.getLon() < lon && (area.getLon() + 0.034447) > lon) {
-                            if (TaxiServer.Data.myArea != area.getId()) {
-                                TaxiServer.Data.myArea = area.getId();
-                                TaxiServer.getInstance().setMyArea(area.getId());
-                                Toast.makeText(GpsService.this, getString(R.string.new_area) + area.getName(), Toast.LENGTH_LONG).show();
-                            }
-                        }
-                    }
-
                 }
             }
 

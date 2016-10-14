@@ -10,8 +10,6 @@ import android.database.sqlite.SQLiteDatabase;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 
-import com.example.taxidriverapp.activity.OrderActivity;
-
 public class NetworkChangeReceiver extends BroadcastReceiver {
     String TAG = "NetworkChangeReceiver";
 
@@ -49,9 +47,9 @@ public class NetworkChangeReceiver extends BroadcastReceiver {
                     if (cursor.getInt(cursor.getColumnIndex(DatabaseHelper.CONTENT_IS_ADDRESS_FOUND)) == 0) {
                         //найти адрес
                         String addresses = "";
-                        addresses = addresses + OrderActivity.getAddress(cursor.getDouble(cursor.getColumnIndex(DatabaseHelper.CONTENT_LAT_FROM)),
+                        addresses = addresses + Utils.getAddress(cursor.getDouble(cursor.getColumnIndex(DatabaseHelper.CONTENT_LAT_FROM)),
                                 cursor.getDouble(cursor.getColumnIndex(DatabaseHelper.CONTENT_LON_FROM)), context);
-                        addresses = addresses + " - " + OrderActivity.getAddress(cursor.getDouble(cursor.getColumnIndex(DatabaseHelper.CONTENT_LAT_TO)),
+                        addresses = addresses + " - " + Utils.getAddress(cursor.getDouble(cursor.getColumnIndex(DatabaseHelper.CONTENT_LAT_TO)),
                                 cursor.getDouble(cursor.getColumnIndex(DatabaseHelper.CONTENT_LON_TO)), context);
 
                         int id = cursor.getInt(cursor.getColumnIndex(DatabaseHelper._ID));
@@ -62,8 +60,9 @@ public class NetworkChangeReceiver extends BroadcastReceiver {
                     }
 
                     if (cursor.getInt(cursor.getColumnIndex(DatabaseHelper.CONTENT_IS_IN_LIST)) == 0) {
-                        //TODO отправить на сервер
-                        //http://320320.ru:320/test_terminal/hs/mobile/sendorderstatus?imei=0123456789&login=998&Idorder=000000000000009&date=00/23/1234_18:00:00&statusorder=11&sum=100&priznaksum=0&priznakzagorodom=0&peregruzka=0&format=xml&os=android
+                        //синхронизируем с глобальной базой данных
+                        TaxiServer.getInstance().finishOrder(
+                                cursor.getInt(cursor.getColumnIndex(DatabaseHelper.CONTENT_ID_IN_GLOBAL_DB)));
                         int id = cursor.getInt(cursor.getColumnIndex(DatabaseHelper._ID));
                         ContentValues args = new ContentValues();
                         args.put(DatabaseHelper.CONTENT_IS_IN_LIST, 1);

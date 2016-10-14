@@ -174,7 +174,6 @@ public class LoginActivity extends AppCompatActivity {
                             }
                             case 1: {
                                 //подключился
-                                finish();
                                 Intent intent = new Intent(LoginActivity.this, MainActivity.class);
                                 startActivity(intent);
                                 break;

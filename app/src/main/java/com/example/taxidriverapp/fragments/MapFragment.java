@@ -5,15 +5,19 @@ import com.example.taxidriverapp.R;
 import butterknife.BindView;
 import ru.yandex.yandexmapkit.MapController;
 import ru.yandex.yandexmapkit.MapView;
-import ru.yandex.yandexmapkit.utils.GeoPoint;
+import ru.yandex.yandexmapkit.OverlayManager;
+import ru.yandex.yandexmapkit.overlay.location.MyLocationItem;
+import ru.yandex.yandexmapkit.overlay.location.OnMyLocationListener;
 
 public class MapFragment extends GeneralFragment {
     @BindView(R.id.map)
     MapView mapView;
+    MapController mapController;
+    OverlayManager overlayManager;
 
     @Override
     protected int layout() {
-        return R.layout.map;
+        return R.layout.fragment_map;
     }
 
     @Override
@@ -21,15 +25,16 @@ public class MapFragment extends GeneralFragment {
         super.onStart();
         mapView.showFindMeButton(true);
         mapView.showZoomButtons(true);
-        MapController mapController = mapView.getMapController();
-        mapController.setPositionNoAnimationTo(new GeoPoint(47.222184, 38.919234));
+        mapController = mapView.getMapController();
+        overlayManager = mapController.getOverlayManager();
         mapController.setZoomCurrent(15);
-        /*mapView.getMapController().getOverlayManager().getMyLocation().addMyLocationListener(new OnMyLocationListener() {
+        mapController.getOverlayManager().getMyLocation().addMyLocationListener(new OnMyLocationListener() {
             @Override
             public void onMyLocationChange(MyLocationItem myLocationItem) {
-                GeoPoint geoPoint = myLocationItem.getGeoPoint();
+                mapController.setPositionNoAnimationTo(myLocationItem.getGeoPoint());
             }
-        });*/
+        });
     }
+
 }
 

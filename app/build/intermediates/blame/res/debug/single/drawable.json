@@ -28,10 +28,6 @@
         "source": "D:\\AndroidStudioProjects\\taxi\\app\\src\\main\\res\\drawable\\button.xml"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\taxi\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\left_general_button_normal.xml",
-        "source": "D:\\AndroidStudioProjects\\taxi\\app\\src\\main\\res\\drawable\\left_general_button_normal.xml"
-    },
-    {
         "merged": "D:\\AndroidStudioProjects\\taxi\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
         "source": "D:\\AndroidStudioProjects\\taxi\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_tab_indicator_material.xml"
     },
@@ -46,10 +42,6 @@
     {
         "merged": "D:\\AndroidStudioProjects\\taxi\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
         "source": "D:\\AndroidStudioProjects\\taxi\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_cab_background_top_material.xml"
-    },
-    {
-        "merged": "D:\\AndroidStudioProjects\\taxi\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\left_general_button_pressed.xml",
-        "source": "D:\\AndroidStudioProjects\\taxi\\app\\src\\main\\res\\drawable\\left_general_button_pressed.xml"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\taxi\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_full_material.xml",
@@ -150,10 +142,6 @@
     {
         "merged": "D:\\AndroidStudioProjects\\taxi\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\all_areas_button_normal.xml",
         "source": "D:\\AndroidStudioProjects\\taxi\\app\\src\\main\\res\\drawable\\all_areas_button_normal.xml"
-    },
-    {
-        "merged": "D:\\AndroidStudioProjects\\taxi\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\left_general_button.xml",
-        "source": "D:\\AndroidStudioProjects\\taxi\\app\\src\\main\\res\\drawable\\left_general_button.xml"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\taxi\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",

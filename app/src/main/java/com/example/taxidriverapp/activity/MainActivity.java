@@ -1,6 +1,5 @@
 package com.example.taxidriverapp.activity;
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
@@ -11,10 +10,8 @@ import android.support.v7.widget.Toolbar;
 import android.view.KeyEvent;
 import android.view.MenuItem;
 
-import com.example.taxidriverapp.GpsService;
 import com.example.taxidriverapp.R;
-import com.example.taxidriverapp.TaxiServer;
-import com.example.taxidriverapp.fragments.AllAreasFragment;
+import com.example.taxidriverapp.fragments.AllOrdersFragment;
 import com.example.taxidriverapp.fragments.HistoryFragment;
 import com.example.taxidriverapp.fragments.MapFragment;
 
@@ -33,10 +30,7 @@ public class MainActivity extends AppCompatActivity {
 
     @OnClick(R.id.menu_exit)
     void exit() {
-        TaxiServer.getInstance().logout();
-        stopService(new Intent(this, GpsService.class));
         finish();
-        startActivity(new Intent(MainActivity.this, LoginActivity.class));
     }
 
     @Override
@@ -44,9 +38,9 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         ButterKnife.bind(this);
-        if(savedInstanceState==null){
+        if (savedInstanceState == null) {
             getSupportFragmentManager().beginTransaction()
-                    .add(R.id.container, new AllAreasFragment())
+                    .add(R.id.container, new AllOrdersFragment())
                     .commit();
         }
     }
@@ -74,9 +68,9 @@ public class MainActivity extends AppCompatActivity {
                                 .replace(R.id.container, new MapFragment())
                                 .commit();
                         break;
-                    case R.id.menu_all_areas:
+                    case R.id.menu_all_orders:
                         getSupportFragmentManager().beginTransaction()
-                                .replace(R.id.container, new AllAreasFragment())
+                                .replace(R.id.container, new AllOrdersFragment())
                                 .commit();
                         break;
                 }

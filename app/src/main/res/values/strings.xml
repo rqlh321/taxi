@@ -31,7 +31,7 @@
     <string name="order">Заказ</string>
     <string name="history">История</string>
     <string name="map">Карта</string>
-    <string name="all_areas">Все районы</string>
+    <string name="all_orders">Все заказы</string>
     <string name="exit">Выход</string>
 
     <string name="fixation">Фиксация</string>
@@ -68,6 +68,7 @@
     <string name="loading">Загрузка районов</string>
     <string name="wait_loading">Пожалуйста подождите...</string>
     <string name="new_area">Ваш район: </string>
+    <string name="denie">Запрос откланен...</string>
 
 
 </resources>

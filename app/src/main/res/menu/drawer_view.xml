@@ -11,8 +11,8 @@
             android:id="@+id/menu_map"
             android:title="@string/map" />
         <item
-            android:id="@+id/menu_all_areas"
-            android:title="@string/all_areas" />
+            android:id="@+id/menu_all_orders"
+            android:title="@string/all_orders" />
 
         <item
             android:id="@+id/menu_exit"

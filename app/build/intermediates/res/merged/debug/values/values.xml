@@ -306,7 +306,7 @@
     <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
     <string name="action_sign_in">Поехали!</string>
-    <string name="all_areas">Все районы</string>
+    <string name="all_orders">Все заказы</string>
     <string name="app_name">My Taxi</string>
     <string name="appbar_scrolling_view_behavior" translatable="false">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
     <string name="apply">Запрос</string>
@@ -317,6 +317,7 @@
     <string name="calculation">Расчет</string>
     <string name="cancel">Отмена</string>
     <string name="character_counter_pattern" translatable="false">%1$d / %2$d</string>
+    <string name="denie">Запрос откланен...</string>
     <string name="error_field_password_required">Заполните пароль</string>
     <string name="error_field_user_required">Заполните позывной</string>
     <string name="error_incorrect_password">Неверный позывной и/или пароль</string>

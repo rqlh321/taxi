@@ -17,7 +17,7 @@ import java.lang.Override;
 public class MainActivity_ViewBinding<T extends MainActivity> implements Unbinder {
   protected T target;
 
-  private View view2131624086;
+  private View view2131624087;
 
   @UiThread
   public MainActivity_ViewBinding(final T target, View source) {
@@ -28,7 +28,7 @@ public class MainActivity_ViewBinding<T extends MainActivity> implements Unbinde
     target.mDrawerLayout = Utils.findRequiredViewAsType(source, R.id.drawer_layout, "field 'mDrawerLayout'", DrawerLayout.class);
     target.toolbar = Utils.findRequiredViewAsType(source, R.id.toolbar, "field 'toolbar'", Toolbar.class);
     view = Utils.findRequiredView(source, R.id.menu_exit, "method 'exit'");
-    view2131624086 = view;
+    view2131624087 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -47,8 +47,8 @@ public class MainActivity_ViewBinding<T extends MainActivity> implements Unbinde
     target.mDrawerLayout = null;
     target.toolbar = null;
 
-    view2131624086.setOnClickListener(null);
-    view2131624086 = null;
+    view2131624087.setOnClickListener(null);
+    view2131624087 = null;
 
     this.target = null;
   }
